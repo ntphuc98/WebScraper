@@ -1,0 +1,23 @@
+{% extends "pages/base.html" %}
+{% block title %}
+Tool Scraping Most Popular Movies IMDB
+{% endblock%}
+{% block content %}
+<div class="row col-6 offset-3">
+    <div class="card">
+        <div class="card-header">
+        <h1>Scraping Tool</h1>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <form method="POST">
+                {% csrf_token %}
+                <input type="submit" class="btn btn-success" name = "scraping" value="Scraping">
+                <input type="submit" class="btn btn-danger" name ="delete" value="Delete">
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

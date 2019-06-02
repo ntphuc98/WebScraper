@@ -1,0 +1,19 @@
+.list-content{
+    background-color: #e3e2dd !important;
+}
+.content{
+    background-color: #e3e2dd !important;
+}
+.video{
+    padding-left: 30px;
+    padding-right: 20px;
+}
+#header-detail{
+    background-color: #424242  !important;
+    color: #fff;
+    padding: 25px;
+}
+.text-detail{
+    padding-left: 20px;
+    padding-right: 20px;
+}
